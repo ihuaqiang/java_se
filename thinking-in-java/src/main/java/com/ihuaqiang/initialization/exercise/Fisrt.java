@@ -7,12 +7,13 @@ package com.ihuaqiang.initialization.exercise;
  */
 public class Fisrt {
     String s;
-    Fisrt(){
-        System.out.println(s);
-    }
+    //Fisrt(){
+    //    System.out.println(s);
+    //}
 
     public static void main(String args[]){
         Fisrt f=new Fisrt();
+        System.out.println(f.s);
     }
 
 }
